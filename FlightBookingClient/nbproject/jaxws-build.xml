@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:webproject2="http://www.netbeans.org/ns/web-project/2" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSGEN SECTION
+                ===================
+            -->
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <fail if="${wsimport.bad.version}" message="WsImport ant task defined in the classpath ${j2ee.platform.wsimport.classpath} has a serious bug. See http://wiki.netbeans.org/MetroIssue for details."/>
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <property name="j2ee.platform.wsimport.classpath" value="${libs.jaxws21.classpath}"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${java.home}/../lib/tools.jar:${j2ee.platform.wsimport.classpath}:${javac.classpath}"/>
+        </taskdef>
+        <condition property="conf-dir" value="${conf.dir}/" else="">
+            <isset property="conf.dir"/>
+        </condition>
+    </target>
+    <target name="wsimport-client-FlightBookingWS" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/FlightBookingWS"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/FlightBookingWS" destdir="${build.generated.dir}/jax-wsCache/FlightBookingWS" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/FlightBookingWS/wsdl/localhost_8080/FlightBookingWS/FlightBookingWS.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/FlightBookingWS/FlightBookingWS?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/FlightBookingWS/wsdl/localhost_8080/FlightBookingWS/FlightBookingWS.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/FlightBookingWS"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/FlightBookingWS">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-FlightBookingWS" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/org/me/flightbooking"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/FlightBookingWS"/>
+    </target>
+    <target name="wsimport-client-CurrencyConversionWSService" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/CurrencyConversionWSService"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/CurrencyConversionWSService" destdir="${build.generated.dir}/jax-wsCache/CurrencyConversionWSService" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/CurrencyConversionWSService/wsdl/localhost_8080/CurrencyConvertor/CurrencyConversionWSService.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/CurrencyConvertor/CurrencyConversionWSService?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/CurrencyConversionWSService/wsdl/localhost_8080/CurrencyConvertor/CurrencyConversionWSService.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/CurrencyConversionWSService"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/CurrencyConversionWSService">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-CurrencyConversionWSService" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/modulewebservices"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/CurrencyConversionWSService"/>
+    </target>
+    <target name="wsimport-client-DirectionsWS" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/DirectionsWS"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/DirectionsWS" destdir="${build.generated.dir}/jax-wsCache/DirectionsWS" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/DirectionsWS/wsdl/localhost_8080/DirectionsWS/DirectionsWS.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/DirectionsWS/DirectionsWS?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/DirectionsWS/wsdl/localhost_8080/DirectionsWS/DirectionsWS.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/DirectionsWS"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/DirectionsWS">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-DirectionsWS" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/org/me/directions"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/DirectionsWS"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-FlightBookingWS, wsimport-client-CurrencyConversionWSService, wsimport-client-DirectionsWS"/>
+</project>

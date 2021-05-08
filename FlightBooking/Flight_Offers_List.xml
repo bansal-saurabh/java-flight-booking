@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Available_Flights xmlns="http://xml.netbeans.org/schema/Offers">
+  <Flight_Details>
+    <ID>1</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Stansted, STN, United Kingdom</OriginAirport>
+    <DestinationCity>Edinburgh</DestinationCity>
+	<DestinationAirport>Edinburgh, EDI, United Kingdom</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Ryanair</Airline>
+    <AvailableSeats>200</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>37</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>2</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Edinburgh</DestinationCity>
+	<DestinationAirport>Edinburgh, EDI, United Kingdom</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Flybe</Airline>
+    <AvailableSeats>150</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>69</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>3</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Edinburgh</DestinationCity>
+	<DestinationAirport>Edinburgh, EDI, United Kingdom</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>British Airways</Airline>
+    <AvailableSeats>100</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>187</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>4</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Stansted, STN, United Kingdom</OriginAirport>
+    <DestinationCity>Edinburgh</DestinationCity>
+	<DestinationAirport>Edinburgh, EDI, United Kingdom</DestinationAirport>
+	<Date>2019-03-25</Date>
+    <Airline>EasyJet</Airline>
+    <AvailableSeats>120</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>47</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>5</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Southend, SEN, United Kingdom</OriginAirport>
+    <DestinationCity>Paris</DestinationCity>
+	<DestinationAirport>Paris Charles de Gaulle, CDG, France</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>EasyJet</Airline>
+    <AvailableSeats>75</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>89</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>6</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Mumbai</DestinationCity>
+	<DestinationAirport>Mumbai, BOM, India</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Jet Airways</Airline>
+    <AvailableSeats>180</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>264</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>7</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Gatwick, LGW, United Kingdom</OriginAirport>
+    <DestinationCity>Mumbai</DestinationCity>
+	<DestinationAirport>Mumbai, BOM, India</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Emirates</Airline>
+    <AvailableSeats>125</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>276</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>8</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Shanghai</DestinationCity>
+	<DestinationAirport>Shanghai Pudong, PVG, China</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Virgin Atlantic</Airline>
+    <AvailableSeats>90</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>294</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>9</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Shanghai</DestinationCity>
+	<DestinationAirport>Shanghai Pudong, PVG, China</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Turkish Airlines</Airline>
+    <AvailableSeats>150</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>318</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>10</ID>
+    <OriginCity>Delhi</OriginCity>
+	<OriginAirport>New Delhi, DEL, India</OriginAirport>
+    <DestinationCity>Edinburgh</DestinationCity>
+	<DestinationAirport>Edinburgh, EDI, United Kingdom</DestinationAirport>
+	<Date>2019-03-27</Date>
+    <Airline>Virgin Atlantic</Airline>
+    <AvailableSeats>110</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>554</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>11</ID>
+    <OriginCity>Delhi</OriginCity>
+	<OriginAirport>New Delhi, DEL, India</OriginAirport>
+    <DestinationCity>Mumbai</DestinationCity>
+	<DestinationAirport>Mumbai, BOM, India</DestinationAirport>
+	<Date>2019-03-27</Date>
+    <Airline>Air India</Airline>
+    <AvailableSeats>240</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>45</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>12</ID>
+    <OriginCity>Delhi</OriginCity>
+	<OriginAirport>New Delhi, DEL, India</OriginAirport>
+    <DestinationCity>Paris</DestinationCity>
+	<DestinationAirport>Paris Charles de Gaulle, CDG, France</DestinationAirport>
+	<Date>2019-03-28</Date>
+    <Airline>Air India</Airline>
+    <AvailableSeats>240</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>244</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>13</ID>
+    <OriginCity>Delhi</OriginCity>
+	<OriginAirport>New Delhi, DEL, India</OriginAirport>
+    <DestinationCity>Shanghai</DestinationCity>
+	<DestinationAirport>Shanghai Pudong, PVG, China</DestinationAirport>
+	<Date>2019-03-28</Date>
+    <Airline>Air India</Airline>
+    <AvailableSeats>105</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>293</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>14</ID>
+    <OriginCity>Delhi</OriginCity>
+	<OriginAirport>New Delhi, DEL, India</OriginAirport>
+    <DestinationCity>Shanghai</DestinationCity>
+	<DestinationAirport>Shanghai Pudong, PVG, China</DestinationAirport>
+	<Date>2019-03-28</Date>
+    <Airline>Cathay Pacific</Airline>
+    <AvailableSeats>145</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>285</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>15</ID>
+    <OriginCity>Marseille</OriginCity>
+	<OriginAirport>Marseille, MRS, Paris</OriginAirport>
+    <DestinationCity>Edinburgh</DestinationCity>
+	<DestinationAirport>Edinburgh, EDI, United Kingdom</DestinationAirport>
+	<Date>2019-03-29</Date>
+    <Airline>EasyJet</Airline>
+    <AvailableSeats>90</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>117</Value>
+    </Fare>
+  </Flight_Details>  
+  <Flight_Details>
+    <ID>16</ID>
+    <OriginCity>Marseille</OriginCity>
+	<OriginAirport>Marseille, MRS, France</OriginAirport>
+    <DestinationCity>Paris</DestinationCity>
+	<DestinationAirport>Paris Orly, ORY, France</DestinationAirport>
+	<Date>2019-03-29</Date>
+    <Airline>Air France</Airline>
+    <AvailableSeats>140</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>89</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>17</ID>
+    <OriginCity>Marseille</OriginCity>
+	<OriginAirport>Marseille, MRS, France</OriginAirport>
+    <DestinationCity>Mumbai</DestinationCity>
+	<DestinationAirport>Mumbai, BOM, India</DestinationAirport>
+	<Date>2019-03-30</Date>
+    <Airline>Lufthansa</Airline>
+    <AvailableSeats>180</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>358</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>18</ID>
+    <OriginCity>Marseille</OriginCity>
+	<OriginAirport>Marseille, MRS, France</OriginAirport>
+    <DestinationCity>Shanghai</DestinationCity>
+	<DestinationAirport>Shanghai Pudong, PVG, China</DestinationAirport>
+	<Date>2019-03-30</Date>
+    <Airline>Air France</Airline>
+    <AvailableSeats>140</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>681</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>19</ID>
+    <OriginCity>Beijing</OriginCity>
+	<OriginAirport>Beijing Capital, PEK, China</OriginAirport>
+    <DestinationCity>Edinburgh</DestinationCity>
+	<DestinationAirport>Edinburgh, EDI, United Kingdom</DestinationAirport>
+	<Date>2019-04-02</Date>
+    <Airline>Hainan Airlines</Airline>
+    <AvailableSeats>140</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>337</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>20</ID>
+    <OriginCity>Beijing</OriginCity>
+	<OriginAirport>Beijing Capital, PEK, China</OriginAirport>
+    <DestinationCity>Paris</DestinationCity>
+	<DestinationAirport>Paris Charles de Gaulle, CDG, France</DestinationAirport>
+	<Date>2019-04-02</Date>
+    <Airline>Air China</Airline>
+    <AvailableSeats>200</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>549</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>21</ID>
+    <OriginCity>Beijing</OriginCity>
+	<OriginAirport>Beijing Capital, PEK, China</OriginAirport>
+    <DestinationCity>Paris</DestinationCity>
+	<DestinationAirport>Paris Charles de Gaulle, CDG, France</DestinationAirport>
+	<Date>2019-04-02</Date>
+    <Airline>Ukraine International</Airline>
+    <AvailableSeats>125</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>214</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>22</ID>
+    <OriginCity>Beijing</OriginCity>
+	<OriginAirport>Beijing Capital, PEK, China</OriginAirport>
+    <DestinationCity>Mumbai</DestinationCity>
+	<DestinationAirport>Mumbai, BOM, India</DestinationAirport>
+	<Date>2019-04-04</Date>
+    <Airline>Air China</Airline>
+    <AvailableSeats>200</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>334</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>23</ID>
+    <OriginCity>Beijing</OriginCity>
+	<OriginAirport>Beijing Nanyuan, NAY, China</OriginAirport>
+    <DestinationCity>Shanghai</DestinationCity>
+	<DestinationAirport>Shanghai Hongqiao, SHA, China</DestinationAirport>
+	<Date>2019-04-04</Date>
+    <Airline>China United Airlines</Airline>
+    <AvailableSeats>250</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>96</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>24</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Manchester</DestinationCity>
+	<DestinationAirport>Manchester, MAN, United Kingdom</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>British Airways</Airline>
+    <AvailableSeats>120</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>70</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>25</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Dubai</DestinationCity>
+	<DestinationAirport>Dubai, MAN, United Arab Emirates</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Virgin Atlantic</Airline>
+    <AvailableSeats>100</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>203</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>26</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Dubai</DestinationCity>
+	<DestinationAirport>Dubai, MAN, United Arab Emirates</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Gulf Air</Airline>
+    <AvailableSeats>180</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>303</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>27</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Bangkok</DestinationCity>
+	<DestinationAirport>Bangkok Suvarnabhumi, BKK, Thailand</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Thai Airways</Airline>
+    <AvailableSeats>200</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>403</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>28</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Tokyo</DestinationCity>
+	<DestinationAirport>Tokyo Narita, NRT, Japan</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Turkish Airlines</Airline>
+    <AvailableSeats>190</AvailableSeats>
+    <NoOfConnections>1</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>757</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>29</ID>
+    <OriginCity>London</OriginCity>
+	<OriginAirport>London Heathrow, LHR, United Kingdom</OriginAirport>
+    <DestinationCity>Seoul</DestinationCity>
+	<DestinationAirport>Seoul Incheon International, ICN, South Korea</DestinationAirport>
+	<Date>2019-03-24</Date>
+    <Airline>Korean Air</Airline>
+    <AvailableSeats>150</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>623</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>30</ID>
+    <OriginCity>Osaka</OriginCity>
+	<OriginAirport>Osaka Kansai International, KIX, Japan</OriginAirport>
+    <DestinationCity>Tokyo</DestinationCity>
+	<DestinationAirport>Tokyo Narita, NRT, Japan</DestinationAirport>
+	<Date>2019-04-05</Date>
+    <Airline>Jetstar</Airline>
+    <AvailableSeats>220</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>64</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>31</ID>
+    <OriginCity>Osaka</OriginCity>
+	<OriginAirport>Osaka Kansai International, KIX, Japan</OriginAirport>
+    <DestinationCity>Bangkok</DestinationCity>
+	<DestinationAirport>Don Mueang, DMK, Thailand</DestinationAirport>
+	<Date>2019-04-05</Date>
+    <Airline>NokScoot Airlines</Airline>
+    <AvailableSeats>140</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>71</Value>
+    </Fare>
+  </Flight_Details>
+  <Flight_Details>
+    <ID>32</ID>
+    <OriginCity>Osaka</OriginCity>
+	<OriginAirport>Osaka Kansai International, KIX, Japan</OriginAirport>
+    <DestinationCity>Seoul</DestinationCity>
+	<DestinationAirport>Seoul Incheon International, ICN, South Korea</DestinationAirport>
+	<Date>2019-04-06</Date>
+    <Airline>Jin Air</Airline>
+    <AvailableSeats>200</AvailableSeats>
+    <NoOfConnections>0</NoOfConnections>
+    <Fare>
+      <Currency>GBP</Currency>
+      <Value>67</Value>
+    </Fare>
+  </Flight_Details>
+</Available_Flights>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://flightbooking.me.org/" xmlns:ns1="http://xml.netbeans.org/schema/Offers" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://flightbooking.me.org/">
+
+<xs:import namespace="http://xml.netbeans.org/schema/Offers" schemaLocation="http://localhost:8080/FlightBookingWS/FlightBookingWS?xsd=1"/>
+
+<xs:element name="AllOffers" type="tns:AllOffers"/>
+
+<xs:element name="AllOffersResponse" type="tns:AllOffersResponse"/>
+
+<xs:element name="AvailableOffers" type="tns:AvailableOffers"/>
+
+<xs:element name="AvailableOffersResponse" type="tns:AvailableOffersResponse"/>
+
+<xs:element name="bookSeats" type="tns:bookSeats"/>
+
+<xs:element name="bookSeatsResponse" type="tns:bookSeatsResponse"/>
+
+<xs:complexType name="AllOffers">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="AllOffersResponse">
+<xs:sequence>
+<xs:element name="return" type="ns1:offerDetails" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="AvailableOffers">
+<xs:sequence>
+<xs:element name="originCity" type="xs:string" minOccurs="0"/>
+<xs:element name="destinationCity" type="xs:string" minOccurs="0"/>
+<xs:element name="date" type="xs:string" minOccurs="0"/>
+<xs:element name="flighttype" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="AvailableOffersResponse">
+<xs:sequence>
+<xs:element name="return" type="ns1:offerDetails" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="bookSeats">
+<xs:sequence>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="originCity" type="xs:string" minOccurs="0"/>
+<xs:element name="destinationCity" type="xs:string" minOccurs="0"/>
+<xs:element name="seats" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="bookSeatsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
